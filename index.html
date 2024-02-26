@@ -1,19 +1,121 @@
 <!DOCTYPE html>
-<html lang='english'>
+<html lang="en">
+
 <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Design</title>
-    <link rel='stylesheet' href='style.css'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>My Website</title>
 </head>
+
 <body>
-    <div class="main">
-            <button class="all first">HI! <br>I'M VANSH SHARMA</button>
-            <button class="all second">I WANT TO BE A FULLSTACK DEVELOPER</button>
-            <button class="all third">I ENJOY WORKING ON GAME DEVELOPMENT ALSO</button>
-            <button class="all fourth">I WORK ON UNITY ENGINE 2D</button>
-            <button class="all fifth">I PRACTICE DSA PROBLEMS FOR LOGIC BUILDING</button>
-            <button class="all sixth">LESSSS GOOOOOO</button>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>V</span>ansh <span>S</span>harma</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Vansh <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/depositphotos_133260890-stock-illustration-programmer-sitting-on-big-laptop.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Front End Developer</h2>
+        <p>Hey there! I'm Vansh Sharma, a passionate computer engineering student with a love for coding in C++ and crafting beautiful user interfaces on the FrontEnd. Currently honing my skills in data structures and algorithms (DSA), I thrive on solving complex problems and optimizing solutions for efficiency.
+
+          In the realm of C++, I enjoy diving deep into algorithms and data structures, exploring how they can be leveraged to create robust and scalable software solutions. From mastering sorting algorithms to implementing intricate data structures, I'm always eager to expand my knowledge and tackle new challenges.
+          
+          On the FrontEnd side, I'm all about creating engaging user experiences through HTML, CSS, and JavaScript. Whether it's designing intuitive interfaces or bringing interactive elements to life, I'm driven by the art of blending aesthetics with functionality.
+          
+          As a student of computer engineering, I'm constantly learning and growing, eager to apply my skills to real-world projects and make an impact. If you're looking for a motivated collaborator to bring your ideas to life, let's connect and create something amazing together!.</p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="./img/email.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>3vansh0sharma3@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="./img/location.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Uttar Pradesh , INDIA</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>V</span>ansh <span>S</span>harma</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/vansh-sharma-2283b1237/"><img src="./img/link.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/vanshsharma7"><img src="./img/github.png" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
+
 </html>
